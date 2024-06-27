@@ -15,4 +15,19 @@ public class SayHelloContoller {
 		return "Hello! What are you learning today?";
 	}
 
+	@RequestMapping("say-hello-html")
+	@ResponseBody
+	public String sayHelloHtml() {
+		StringBuffer sb = new StringBuffer();
+		sb.append("<html>");
+		sb.append("<head>");
+		sb.append("<title>My First Web App</title>");
+		sb.append("</head>");
+		sb.append("<body>");
+		sb.append("My First Web page");
+		sb.append("</body>");
+		sb.append("</html>");
+		
+		return sb.toString();
+	}
 }
