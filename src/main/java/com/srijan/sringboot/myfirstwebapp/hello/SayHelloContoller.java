@@ -40,7 +40,6 @@ public class SayHelloContoller {
 	// /src/main/resources/META-INF/resources/WEB-INF/jsp/Todos.jsp
 
 	// /src/main/resources/META-INF/resources/WEB-INF/jsp/Todos.jsp
-	
 	@RequestMapping("say-hello-jsp")
 	public String sayHelloJsp() {
 		return "sayHello";
