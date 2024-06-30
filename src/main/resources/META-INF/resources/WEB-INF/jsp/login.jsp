@@ -7,6 +7,8 @@
 <title>Login page</title>
 </head>
 <body>
-	We are on login Page !!
+	We are on login Page 	${name} !!
+	
+
 </body>
 </html>
