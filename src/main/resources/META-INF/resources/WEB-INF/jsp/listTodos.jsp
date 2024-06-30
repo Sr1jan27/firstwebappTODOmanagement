@@ -7,7 +7,11 @@
 <title>List Todo Page</title>
 </head>
 <body>
- <strong>We are on TODO page </strong>
+ <strong>We are on TODO page ${name}</strong>
+ <br>
+ <br>
+ <br>
+ 
  
  <strong> your todos are ${todos}</strong>
 </body>
