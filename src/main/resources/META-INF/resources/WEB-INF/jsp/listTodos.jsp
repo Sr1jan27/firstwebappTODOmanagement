@@ -8,5 +8,7 @@
 </head>
 <body>
  <strong>We are on TODO page </strong>
+ 
+ <strong> your todos are ${todos}</strong>
 </body>
 </html>
