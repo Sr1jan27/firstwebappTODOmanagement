@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Todo Page</title>
+<title>List Todo Page</title>
 </head>
 <body>
  <strong>We are on TODO page </strong>

@@ -6,9 +6,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class ToDoController {
 	
-	@RequestMapping("todo-list")
-	public String sayHelloJsp() {
-		return "todo-page";
+	@RequestMapping("list-todos")
+	public String listAllTodos() {
+		return "listTodos";
 	}
 
 }
