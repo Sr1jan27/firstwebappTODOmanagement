@@ -4,8 +4,9 @@
 <title>Welcome</title>
 </head>
 <body>
-	<div>Welcome ${name}!!</div>
-	<hr>
-	<a href="list-todos">Manage</a> your Todos
+	<div class="container">
+		<h1>Welcome ${name}!!</h1>
+		<a href="list-todos">Manage</a> your Todos
+	</div>
 </body>
 </html>
