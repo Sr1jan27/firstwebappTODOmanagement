@@ -53,5 +53,13 @@ public class ToDoController {
 							LocalDate.now().plusYears(1), false);
 		return "redirect:list-todos";
 	}
+	
+	@RequestMapping("delete-todo")
+	public String deleteTodo(@RequestParam int id) {
+		
+		todoService.deleteById(id);
+		
+		return "redirect:list-todos";
+	}
 
 }
