@@ -40,4 +40,16 @@ public class TodoService {
 		todos.removeIf(predicate);
 	}
 	
+	public Todo findById(int id) {
+		final Todo[] result = new Todo[1]; // Array to hold the result
+
+	    todos.forEach(todo -> {
+	        if (todo.getId() == id) {
+	            result[0] = todo; // Assign the matching todo to the array
+	        }
+	    });
+
+	    return result[0];
+	} 
+	
 }
