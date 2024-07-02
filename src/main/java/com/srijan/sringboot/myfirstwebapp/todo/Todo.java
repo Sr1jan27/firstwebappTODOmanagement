@@ -2,6 +2,8 @@ package com.srijan.sringboot.myfirstwebapp.todo;
 
 import java.time.LocalDate;
 
+import jakarta.validation.constraints.Size;
+
 
 public class Todo {
 
@@ -18,6 +20,7 @@ public class Todo {
 
 	private String username;
 
+	@Size(min=10, message="Enter atleast 10 characters!")
 	private String description;
 
 	private LocalDate targetDate;
