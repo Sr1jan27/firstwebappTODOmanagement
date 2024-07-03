@@ -7,6 +7,8 @@ import java.util.function.Predicate;
 
 import org.springframework.stereotype.Service;
 
+import jakarta.validation.Valid;
+
 @Service
 public class TodoService {
 
@@ -21,7 +23,7 @@ public class TodoService {
 		todos.add(new Todo(++todosCount, "Srijan", "Learn Angular",
 		           LocalDate.now().plusYears(2), false));
 		
-		todos.add(new Todo(++todosCount, "Srijan", "Learn DSA",
+		todos.add(new Todo(++todosCount, "Srijan", "Learn Data Structure and Algorithm",
 		           LocalDate.now().plusYears(1), false));
 	}
 	
@@ -57,5 +59,10 @@ public class TodoService {
 //		return todo;
 	    // stream was not working for me so used a different loop way 
 	} 
+	
+	public void updateTodo(@Valid Todo todo) {
+		deleteById(todo.getId());
+		todos.add(todo);
+	}
 	
 }
