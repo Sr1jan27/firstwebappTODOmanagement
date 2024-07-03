@@ -50,6 +50,12 @@ public class TodoService {
 	    });
 
 	    return result[0];
+	    
+	    
+//	    Predicate<? super Todo> predicate = todo -> todo.getId() == id;
+//		Todo todo = todos.stream().filter(predicate).findFirst().get();
+//		return todo;
+	    // stream was not working for me so used a different loop way 
 	} 
 	
 }
