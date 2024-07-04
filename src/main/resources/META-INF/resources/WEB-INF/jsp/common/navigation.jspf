@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-md navbar-light bg-light mb-3 p-1">
-	<a class="navbar-brand m-1 me-4" href="https://github.com/Sr1jan27">Srijan Singh</a>
+	<a class="navbar-brand m-1 me-4" href="https://github.com/Sr1jan27"> <strong>Srijan Singh's</strong> Todo Application</a>
 	<div class="collapse navbar-collapse">
 		<ul class="navbar-nav">
 			<li class="nav-item"><a class="nav-link" href="/">Home</a></li>
