@@ -12,6 +12,8 @@ class MyfirstwebappApplicationTests {
 		// login
 
 		// here 
+
+		//join
 	}
 
 }
