@@ -13,7 +13,6 @@ class MyfirstwebappApplicationTests {
 
 		// here 
 
-		//join
 	}
 
 }
