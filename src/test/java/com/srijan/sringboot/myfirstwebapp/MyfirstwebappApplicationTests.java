@@ -10,7 +10,5 @@ class MyfirstwebappApplicationTests {
 	void contextLoads() {
 		// here 
 
-		// add
-
 	}
 }
