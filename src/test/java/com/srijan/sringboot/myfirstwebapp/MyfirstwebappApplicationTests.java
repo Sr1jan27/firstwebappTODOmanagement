@@ -17,6 +17,10 @@ class MyfirstwebappApplicationTests {
 			for(char c: carr){
 				charSet.add(c);
 			}
+
+			StringBuilder result = new StringBuilder();
+
+			
 		
 			return str;
 		}
