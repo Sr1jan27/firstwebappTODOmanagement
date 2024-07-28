@@ -13,6 +13,10 @@ class MyfirstwebappApplicationTests {
 			Set<Character> charSet  = new LinkedHashSet<>();
 
 			char[] carr = str.toCharArray();
+
+			for(char c: carr){
+				charSet.add(c);
+			}
 		
 			return str;
 		}
