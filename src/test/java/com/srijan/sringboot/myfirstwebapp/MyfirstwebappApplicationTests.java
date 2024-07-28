@@ -10,6 +10,10 @@ class MyfirstwebappApplicationTests {
 	void contextLoads() {
 
 		public String noRepetition(String str){
+			Set<Character> charSet  = new LinkedHashSet<>();
+
+			char[] carr = str.toCharArray();
+		
 			return str;
 		}
 			
