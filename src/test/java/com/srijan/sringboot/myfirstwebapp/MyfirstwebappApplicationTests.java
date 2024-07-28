@@ -8,5 +8,10 @@ class MyfirstwebappApplicationTests {
 
 	@Test
 	void contextLoads() {
+
+		public String noRepetition(String str){
+			return str;
+		}
+			
 	}
 }
