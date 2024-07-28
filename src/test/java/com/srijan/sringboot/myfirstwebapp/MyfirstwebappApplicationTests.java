@@ -9,25 +9,27 @@ class MyfirstwebappApplicationTests {
 	@Test
 	void contextLoads() {
 
-		public String noRepetition(String str){
-			Set<Character> charSet  = new LinkedHashSet<>();
 
-			char[] carr = str.toCharArray();
+		//POTD of GFG on Date 28/07/2024
+		// public String noRepetition(String str){
+		// 	Set<Character> charSet  = new LinkedHashSet<>();
 
-			for(char c: carr){
-				charSet.add(c);
-			}
+		// 	char[] carr = str.toCharArray();
 
-			StringBuilder result = new StringBuilder();
+		// 	for(char c: carr){
+		// 		charSet.add(c);
+		// 	}
 
-			for(char c: charSet){
-				result.append(c);
-			}
+		// 	StringBuilder result = new StringBuilder();
+
+		// 	for(char c: charSet){
+		// 		result.append(c);
+		// 	}
 
 			
 		
-			return result.toString();
-		}
+		// 	return result.toString();
+		// }
 			
 	}
 }
