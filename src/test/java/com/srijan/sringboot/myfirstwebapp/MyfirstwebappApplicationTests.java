@@ -20,9 +20,13 @@ class MyfirstwebappApplicationTests {
 
 			StringBuilder result = new StringBuilder();
 
+			for(char c: charSet){
+				result.append(c);
+			}
+
 			
 		
-			return str;
+			return result.toString();
 		}
 			
 	}
