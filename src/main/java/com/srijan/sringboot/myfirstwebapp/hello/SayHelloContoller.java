@@ -8,7 +8,8 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class SayHelloContoller {
 	
 	//'say-hello' => "Hello! What are you learning today?"
-// say bye 
+// say bye
+// say hello  
 	
 	@RequestMapping("say-hello")
 	@ResponseBody
