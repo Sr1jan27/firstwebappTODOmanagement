@@ -38,6 +38,10 @@ class MyfirstwebappApplicationTests {
 		// nothing to add today 
 
 		// gotit 
+
+		// lets solve a basic array problem today 
+
+		// question would be 
 	
 
 	}
