@@ -39,8 +39,6 @@ class MyfirstwebappApplicationTests {
 
 		// gotit 
 
-		// lets solve a basic array problem today 
 
-	
 	}
 }
